@@ -8,10 +8,11 @@ body,html {
 	width: 100%;
 	display: block;
 	font-family: 'Roboto', sans-serif;
-	
-	
-	
+	overflow-x: hidden;
 }
+
+
+	/*NAVBAR */
 .navbar{
 	margin: 0;
 	position: fixed;
@@ -19,9 +20,9 @@ body,html {
 	transition: 0.5s;
 	margin-top: 5%;
 	margin-left: 27%;
-	
-	
-	
+
+
+
 }
 .navbar li{
 	margin-right: 20px;
@@ -46,11 +47,136 @@ body,html {
 	background-color: black;
 	width: 100%;
 	float: left;
-	
+
 }.navbar h1{
 	font-family: 'Lobster', cursive;
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
-	color: white; 
+	color: white;
 	margin-left: 27%;
+}
+
+
+/* HJEM-SIDEN */
+
+@viewport {
+  zoom:1.0;
+  width:extend-to-zoom;
+}
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom:1.0;
+
+}
+.body {
+  margin-left:0 auto;
+  margin-right:0 auto;
+  width: 80%;
+}
+.content p {
+  color:#B3B6B7;
+  font-family:'Open Sans', sans-serif;
+  text-decoration:none;
+}
+.content img:hover{
+  transform: scale(1.2);
+  transition: all .25s ease-in-out;
+}
+.content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 0px solid grey;
+  width: 100%;
+  border-collapse: collapse;
+  text-decoration:none;
+}
+.content div {
+	background-color: #141414;
+  border-radius:10px;
+}
+.content tr td {
+  border: 0px solid #466a84;
+  width: calc(100% / 3);
+  height: 400px;
+  vertical-align: top;
+  text-decoration:none;
+}
+
+.content tr td div img {
+  margin-left: 40%;
+  float: center;
+  width: 20%;
+}
+
+.content tr td div {
+  -webkit-box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.6);
+  padding: 4%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  line-height: 1.5;
+  text-align: left;
+  height: 100%;
+  text-decoration:none;
+}
+
+.content tr td div span {
+  font-style: italic;
+  text-decoration:none;
+}
+
+.content .atom {
+  display: block;
+  font-size: 1.6em;
+  color:#58D68D  ;
+  text-align: center;
+  text-decoration:none;
+}
+.content a{
+  text-decoration: none;
+}
+.content {
+  margin:0 auto;
+  margin-right:10%;
+  margin-left:12%;
+}
+.programmer {
+  margin-left:14%;
+}
+.nettsider {
+	color: white;
+	font-family:'Open Sans', sans-serif;
+	font-size:25px;
+  text-align: center;
+}
+.infofag {
+  color:#E67E22 ;
+  text-align:center;
+  font-family:sans-serif;
+}
+
+@media screen and (max-width: 1400px) {
+  .content tr td {
+    display: block;
+    margin-bottom: 15%;
+    width: calc(100% - 15%);
+  }
+
+  .content td div {
+    width: 100%;
+  }
+
+  .content .Third {
+    margin-left: 0;
+    width: calc(100% - 15%);
+  }
+
+  .content .Third div {
+    width: 100%;
+  }
+
+  .content .LessMargin {
+    margin-bottom: -5%;
+  }
 }
