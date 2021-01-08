@@ -11,16 +11,11 @@
 </head>
 <body>
 	<div id="navbar" class="navbar">
-		<div class="navbar_links">
 			<ul class="navbar1">
-				<h1 style="">Storytime</h1>
 				<li><a href="../Home/Home.php">Home</a></li>
-				<!--<li><a href="../om-oss/om-oss.php" >Om oss</a></li>-->
 				<li><a href="../Stories/Stories.php">Stories</a></li>
-				<li><a href="../About us/About_us.php">About us</a></li>
 				<li><a href="../Contact us/Contact_us.php">Contact us</a></li>
 			</ul>
 		</div>
-	</div>
 </body>
 </html>
